@@ -1,0 +1,1228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compstible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <nav class="navbar">
+        <h1 class="brand">portfolio</h1>
+        <button class="mobile-menu-btn">☰</button>
+        <div class="mobile-links-container">
+            <li class="links-item"><a href="#home-section" class="link active">Home</a></li>
+        <li class="links-item"><a href="#about-section" class="link">About</a></li>
+        <li class="links-item"><a href="#certificates-section" class="link">Certificates</a></li>
+        <li class="links-item"><a href="#project-section" class="link">Projects</a></li>
+        <li class="links-item"><a href="#contact-section" class="link">Contacts</a></li>
+        </div>
+        <ul class="links-container">
+            <li class="links-item"><a href="#home-section" class="link active">Home</a></li>
+        <li class="links-item"><a href="#about-section" class="link">About</a></li>
+        <li class="links-item"><a href="#certificates-section" class="link">Certificates</a></li>
+        <li class="links-item"><a href="#project-section" class="link">Projects</a></li>
+        <li class="links-item"><a href="#contact-section" class="link">Contacts</a></li>
+        </ul>
+    </nav>
+
+
+<!-- home section -->
+<section class="home" id="home-section">
+    <div class="hero-content">
+       <h1 class="hero-heading">Ksenia Danileychuk</h1><br><br>
+       <a href="#contact-section" class="btn">contacts</a>
+    </div>
+        <img src="https://sun9-34.userapi.com/impg/PfZz2V8Bqi-mPY4NjCczcDTt0XZ6GRyK99531w/35-SSvZmKr0.jpg?size=320x428&quality=95&sign=09fb47a6cf7f5b38fed557ae5f35efc6&type=album" class="image" alt="">
+</section>
+
+<!-- about section -->
+<section class="about" id="about-section">
+    <h2 class="heading">About me</span></h2>
+    <div class="seperator"></div>
+
+    <div class="about-me-container">
+        <div class="left-col">
+            <img src="https://sun9-74.userapi.com/impg/Vay4IG9oeQIeZZuJKzeNqWtcZFqNg33PHzzJ6w/bJsmhvX4Y40.jpg?size=300x400&quality=95&sign=a1bc82108098268a320b5ada16e52e77&type=album" class="about-image" alt="">
+        </div>
+        <div class="right-col">
+            <p class="about-para">
+                My name is Ksenia Igorevna Danileychuk, I am a fourth-year student at the Amur Pedagogical College, specializing in "Information Systems and Programming." My focus is on designing, developing, and administering databases.
+              </p>
+              <br>
+              <p class="about-para">
+                During my studies, I have learned programming in Python and C++, the basics of web development using HTML, CSS, JavaScript, and PHP, as well as the fundamentals of computer graphics.
+              </p>
+              <br>
+              <p class="about-para">
+                I strive to continuously improve my knowledge and skills to become a highly qualified specialist in the field of information technology.
+              </p>              
+        </div>
+    </div>
+</section>
+
+<!-- certificates-section -->
+<section class="project" id="certificates-section">
+    <h2 class="heading">Certificates</span></h2>
+    <div class="seperator"></div>
+    <div class="filters">
+        <button onclick="filterCertificates('course1', this)" id="course1-btn" class="filter-btn">Year 1</button>
+        <button onclick="filterCertificates('course2', this)" id="course2-btn" class="filter-btn">Year 2</button>
+        <button onclick="filterCertificates('course3', this)" id="course3-btn" class="filter-btn">Year 3</button>
+        <button onclick="filterCertificates('course4', this)" id="course4-btn" class="filter-btn">Year 4</button>
+    </div>
+    <div class="certificates-grid">
+        <!-- Certificate Year 1 -->
+        <div class="certificate-card" data-course="course1">
+            <div class="certificate-image">
+                <img src="https://sun9-14.userapi.com/impg/VVt1jb0hjJXnHxUwEGLW10ZFECm2GAMpWLeDmw/OcxzX_PTOGY.jpg?size=520x366&quality=95&sign=571313ad0aeef0351039b8dcf4194196&type=album" alt="IT/Dictation">
+                <span class="certificate-badge">Year 1</span>
+            </div>
+            <div class="certificate-details">
+                <h3 class="certificate-title">IT/Dictation</h3>
+                <div class="certificate-date">
+                    <i class="far fa-calendar-alt"></i> 13.09.2021
+                </div>
+                <a href="#" class="view-certificate" onclick="openCertificateModal(event, 'https://sun9-14.userapi.com/impg/VVt1jb0hjJXnHxUwEGLW10ZFECm2GAMpWLeDmw/OcxzX_PTOGY.jpg?size=520x366&quality=95&sign=571313ad0aeef0351039b8dcf4194196&type=album')">View</a>
+            </div>
+        </div>
+        
+        <!-- Certificate Year 1 -->
+        <div class="certificate-card" data-course="course1">
+            <div class="certificate-image">
+                <img src="https://sun9-54.userapi.com/impg/n3REOn1cIpWI361VnKEsAo3Tbmwsy-cXWyaB0g/QQ5KK6S7XTw.jpg?size=520x366&quality=95&sign=75fc0388445dc024115e1312c969e434&type=album" alt="Computer Literacy Test">
+                <span class="certificate-badge">Year 1</span>
+            </div>
+            <div class="certificate-details">
+                <h3 class="certificate-title">Computer Literacy Test</h3>
+                <div class="certificate-date">
+                    <i class="far fa-calendar-alt"></i> 14.10.2021
+                </div>
+                <a href="#" class="view-certificate" onclick="openCertificateModal(event, 'https://sun9-54.userapi.com/impg/n3REOn1cIpWI361VnKEsAo3Tbmwsy-cXWyaB0g/QQ5KK6S7XTw.jpg?size=520x366&quality=95&sign=75fc0388445dc024115e1312c969e434&type=album')">View</a>
+            </div>
+        </div>
+        
+        <!-- Certificate Year 1 -->
+        <div class="certificate-card" data-course="course1">
+            <div class="certificate-image">
+                <img src="https://sun9-45.userapi.com/impg/3P0c81l1BDawCxIi4krP2-W4C-TO24FGtNU7Sg/70gwd8la-tU.jpg?size=520x336&quality=95&sign=4cebedd7da7ea9857d1fd7b28e111f41&type=album" alt="Great Ethnographic Dictation">
+                <span class="certificate-badge">Year 1</span>
+            </div>
+            <div class="certificate-details">
+                <h3 class="certificate-title">Great Ethnographic Dictation</h3>
+                <div class="certificate-date">
+                    <i class="far fa-calendar-alt"></i>03.11.2021
+                </div>
+                <a href="#" class="view-certificate" onclick="openCertificateModal(event, 'https://sun9-45.userapi.com/impg/3P0c81l1BDawCxIi4krP2-W4C-TO24FGtNU7Sg/70gwd8la-tU.jpg?size=520x336&quality=95&sign=4cebedd7da7ea9857d1fd7b28e111f41&type=album')">View</a>
+            </div>
+        </div>
+
+        <!-- Certificate Year 1 -->
+        <div class="certificate-card" data-course="course1">
+            <div class="certificate-image">
+                <img src="https://sun9-1.userapi.com/impg/uq6-BH8g2bHApYmz2t9Q0DNveeh-JNmZqTFIGw/qAyCmdtb7O0.jpg?size=520x336&quality=95&sign=7d13cbb95291ea7350e47bf15da7f6a3&type=album" alt="WWII History Test">
+                <span class="certificate-badge">Year 1</span>
+            </div>
+            <div class="certificate-details">
+                <h3 class="certificate-title">WWII History Test</h3>
+                <div class="certificate-date">
+                    <i class="far fa-calendar-alt"></i>03.12.2021
+                </div>
+                <a href="#" class="view-certificate" onclick="openCertificateModal(event, 'https://sun9-1.userapi.com/impg/uq6-BH8g2bHApYmz2t9Q0DNveeh-JNmZqTFIGw/qAyCmdtb7O0.jpg?size=520x336&quality=95&sign=7d13cbb95291ea7350e47bf15da7f6a3&type=album')">View</a>
+            </div>
+        </div>
+
+        <!-- Certificate Year 1 -->
+        <div class="certificate-card" data-course="course1">
+            <div class="certificate-image">
+                <img src="https://sun9-17.userapi.com/impg/nvbjVALR9gjOwxoahuO86qWeMg76JtPfNXHSQQ/-JEr2bOswbA.jpg?size=520x749&quality=95&sign=a03a8421772efa42b760197d31b0466d&type=album" alt="Waste Paper Collection Campaign #BoomBattle">
+                <span class="certificate-badge">Year 1</span>
+            </div>
+            <div class="certificate-details">
+                <h3 class="certificate-title">Waste Paper Collection Campaign #BoomBattle</h3>
+                <div class="certificate-date">
+                    <i class="far fa-calendar-alt"></i>04.12.2021
+                </div>
+                <a href="#" class="view-certificate" onclick="openCertificateModal(event, 'https://sun9-17.userapi.com/impg/nvbjVALR9gjOwxoahuO86qWeMg76JtPfNXHSQQ/-JEr2bOswbA.jpg?size=520x749&quality=95&sign=a03a8421772efa42b760197d31b0466d&type=album')">View</a>
+            </div>
+        </div>
+
+        <!-- Certificate Year 1 -->
+        <div class="certificate-card" data-course="course1">
+            <div class="certificate-image">
+                <img src="https://sun9-80.userapi.com/impg/lPeKCGhJ2lXv5WWpqGtbVgucaWWZjX691VbhUA/S5bZggP5qaA.jpg?size=520x336&quality=95&sign=1f2c1fe44f568fa3dd2e0c2e834bb49b&type=album" alt="Shelter Assistance Campaign">
+                <span class="certificate-badge">Year 1</span>
+            </div>
+            <div class="certificate-details">
+                <h3 class="certificate-title">Shelter Assistance Campaign</h3>
+                <div class="certificate-date">
+                    <i class="far fa-calendar-alt"></i>2021
+                </div>
+                <a href="#" class="view-certificate" onclick="openCertificateModal(event, 'https://sun9-80.userapi.com/impg/lPeKCGhJ2lXv5WWpqGtbVgucaWWZjX691VbhUA/S5bZggP5qaA.jpg?size=520x336&quality=95&sign=1f2c1fe44f568fa3dd2e0c2e834bb49b&type=album')">View</a>
+            </div>
+        </div>
+
+        <!-- Certificate Year 1 -->
+        <div class="certificate-card" data-course="course1">
+            <div class="certificate-image">
+                <img src="https://sun5-3.userapi.com/impg/YDM5venVaeCcvlUuoiMPxQQ2znv8hR_h9BNttA/HPLsUlubRGA.jpg?size=520x336&quality=95&sign=165154fb398a04c3efcf2e7df2d0b936&type=album" alt="Russian Ski Track-2022">
+                <span class="certificate-badge">Year 1</span>
+            </div>
+            <div class="certificate-details">
+                <h3 class="certificate-title">Russian Ski Track-2022</h3>
+                <div class="certificate-date">
+                    <i class="far fa-calendar-alt"></i>12.02.2022
+                </div>
+                <a href="#" class="view-certificate" onclick="openCertificateModal(event, 'https://sun5-3.userapi.com/impg/YDM5venVaeCcvlUuoiMPxQQ2znv8hR_h9BNttA/HPLsUlubRGA.jpg?size=520x336&quality=95&sign=165154fb398a04c3efcf2e7df2d0b936&type=album')">View</a>
+            </div>
+        </div>
+
+        <!-- Certificate Year 1 -->
+        <div class="certificate-card" data-course="course1">
+            <div class="certificate-image">
+                <img src="https://sun9-14.userapi.com/impg/wNBEbc1QeV35r5RgZyjyFYRe_IIAq1atwbhAdg/bC01ZRLHz-w.jpg?size=520x749&quality=95&sign=e3ecc332b4252d2311d83a735448ed69&type=album" alt="Intellectual Game Olympic Experts">
+                <span class="certificate-badge">Year 1</span>
+            </div>
+            <div class="certificate-details">
+                <h3 class="certificate-title">Intellectual Game "Olympic Experts"</h3>
+                <div class="certificate-date">
+                    <i class="far fa-calendar-alt"></i>2021
+                </div>
+                <a href="#" class="view-certificate" onclick="openCertificateModal(event, 'https://sun9-14.userapi.com/impg/wNBEbc1QeV35r5RgZyjyFYRe_IIAq1atwbhAdg/bC01ZRLHz-w.jpg?size=520x749&quality=95&sign=e3ecc332b4252d2311d83a735448ed69&type=album')">View</a>
+            </div>
+        </div>
+
+        <!-- Certificate Year 1 -->
+        <div class="certificate-card" data-course="course1">
+            <div class="certificate-image">
+                <img src="https://sun9-83.userapi.com/impg/7xEDqeQLREA6R4BORXNFz01-SFPwpx7nW0I-1g/93ndzH_nbiQ.jpg?size=520x780&quality=95&sign=5ac4812b45793410d5bc02d7351c2a16&type=album" alt="Basketball Tournament">
+                <span class="certificate-badge">Year 1</span>
+            </div>
+            <div class="certificate-details">
+                <h3 class="certificate-title">Basketball Tournament</h3>
+                <div class="certificate-date">
+                    <i class="far fa-calendar-alt"></i>2022
+                </div>
+                <a href="#" class="view-certificate" onclick="openCertificateModal(event, 'https://sun9-83.userapi.com/impg/7xEDqeQLREA6R4BORXNFz01-SFPwpx7nW0I-1g/93ndzH_nbiQ.jpg?size=520x780&quality=95&sign=5ac4812b45793410d5bc02d7351c2a16&type=album')">View</a>
+            </div>
+        </div>
+
+        <!-- Certificate Year 2 -->
+        <div class="certificate-card" data-course="course2">
+            <div class="certificate-image">
+                <img src="https://sun9-75.userapi.com/impg/WfxwoIv96rXc4uibSdorKJr1EUi2aSwFikWZtQ/YyzWXsPJbxE.jpg?size=520x367&quality=95&sign=31e636ce2f533b9f3c16db640d7a2d78&type=album" alt="IT/Dictation">
+                <span class="certificate-badge">Year 2</span>
+            </div>
+            <div class="certificate-details">
+                <h3 class="certificate-title">IT/Dictation</h3>
+                <div class="certificate-date">
+                    <i class="far fa-calendar-alt"></i> 13.09.2022
+                </div>
+                <a href="#" class="view-certificate" onclick="openCertificateModal(event, 'https://sun9-75.userapi.com/impg/WfxwoIv96rXc4uibSdorKJr1EUi2aSwFikWZtQ/YyzWXsPJbxE.jpg?size=520x367&quality=95&sign=31e636ce2f533b9f3c16db640d7a2d78&type=album')">View</a>
+            </div>
+        </div>
+        
+        <!-- Certificate Year 2 -->
+        <div class="certificate-card" data-course="course2">
+            <div class="certificate-image">
+                <img src="https://sun9-48.userapi.com/impg/LKzRgIOPxyJSZ8NxqpdC-YmcLOuldQOsJg_xKQ/_VOWX4NCGI0.jpg?size=520x336&quality=95&sign=928006e2c5c01f14595a36b0d8a128ad&type=album" alt="Databases Course">
+                <span class="certificate-badge">Year 2</span>
+            </div>
+            <div class="certificate-details">
+                <h3 class="certificate-title">Databases Course</h3>
+                <div class="certificate-date">
+                    <i class="far fa-calendar-alt"></i> 12.11.2022
+                </div>
+                <a href="#" class="view-certificate" onclick="openCertificateModal(event, 'https://sun9-48.userapi.com/impg/LKzRgIOPxyJSZ8NxqpdC-YmcLOuldQOsJg_xKQ/_VOWX4NCGI0.jpg?size=520x336&quality=95&sign=928006e2c5c01f14595a36b0d8a128ad&type=album')">View</a>
+            </div>
+        </div>
+
+        <!-- Certificate Year 2 -->
+        <div class="certificate-card" data-course="course2">
+            <div class="certificate-image">
+                <img src="https://sun9-1.userapi.com/impg/0vrEwGEzAaMxQJlXzTcj_rkjA2dDq2tBJQ3wOg/jCegvpfVUMI.jpg?size=520x336&quality=95&sign=31fc331ec3ba2b497b2c4a3bd9df1f24&type=album" alt="Second Life">
+                <span class="certificate-badge">Year 2</span>
+            </div>
+            <div class="certificate-details">
+                <h3 class="certificate-title">Second Life</h3>
+                <div class="certificate-date">
+                    <i class="far fa-calendar-alt"></i>13.11.2022
+                </div>
+                <a href="#" class="view-certificate" onclick="openCertificateModal(event, 'https://sun9-1.userapi.com/impg/0vrEwGEzAaMxQJlXzTcj_rkjA2dDq2tBJQ3wOg/jCegvpfVUMI.jpg?size=520x336&quality=95&sign=31fc331ec3ba2b497b2c4a3bd9df1f24&type=album')">View</a>
+            </div>
+        </div>
+
+        <!-- Certificate Year 2 -->
+        <div class="certificate-card" data-course="course2">
+            <div class="certificate-image">
+                <img src="https://sun9-9.userapi.com/impg/6-DGCgP6H5Vcr6HgAzHBwQI0YqqI8J9qW5jlow/wB70rdHaO3o.jpg?size=520x336&quality=95&sign=54a0621033cf829e1b6cad78bc86a0ff&type=album" alt="All-Russian Sociological Dictation">
+                <span class="certificate-badge">Year 2</span>
+            </div>
+            <div class="certificate-details">
+                <h3 class="certificate-title">All-Russian Sociological Dictation</h3>
+                <div class="certificate-date">
+                    <i class="far fa-calendar-alt"></i>14.11.2022
+                </div>
+                <a href="#" class="view-certificate" onclick="openCertificateModal(event, 'https://sun9-9.userapi.com/impg/6-DGCgP6H5Vcr6HgAzHBwQI0YqqI8J9qW5jlow/wB70rdHaO3o.jpg?size=520x336&quality=95&sign=54a0621033cf829e1b6cad78bc86a0ff&type=album')">View</a>
+            </div>
+        </div>
+
+        <div class="certificate-card" data-course="course2">
+            <div class="certificate-image">
+                <img src="https://sun9-59.userapi.com/impg/AnDLhccC9vNyBqnwpBTGqsYzC65UvXrklRFoqw/pi1xQbv6Kn0.jpg?size=520x336&quality=95&sign=d0ff668c43ab939bd25fa8e7f91ccf10&type=album" alt="Military-Patriotic Dictation">
+                <span class="certificate-badge">Year 2</span>
+            </div>
+            <div class="certificate-details">
+                <h3 class="certificate-title">Military-Patriotic Dictation</h3>
+                <div class="certificate-date">
+                    <i class="far fa-calendar-alt"></i>15.11.2022
+                </div>
+                <a href="#" class="view-certificate" onclick="openCertificateModal(event, 'https://sun9-59.userapi.com/impg/AnDLhccC9vNyBqnwpBTGqsYzC65UvXrklRFoqw/pi1xQbv6Kn0.jpg?size=520x336&quality=95&sign=d0ff668c43ab939bd25fa8e7f91ccf10&type=album')">View</a>
+            </div>
+        </div>
+
+        <div class="certificate-card" data-course="course2">
+            <div class="certificate-image">
+                <img src="https://sun9-56.userapi.com/impg/yVpEUxNeqMkTABtZ8kt5qoDPGYq5ttYdDJigOA/zr5nSbgXijA.jpg?size=520x336&quality=95&sign=a588aceed8ecab3160caec7338a99ebe&type=album" alt="Python Generation: Beginner Course">
+                <span class="certificate-badge">Year 2</span>
+            </div>
+            <div class="certificate-details">
+                <h3 class="certificate-title">"Python Generation": Beginner Course</h3>
+                <div class="certificate-date">
+                    <i class="far fa-calendar-alt"></i>17.11.2022
+                </div>
+                <a href="#" class="view-certificate" onclick="openCertificateModal(event, 'https://sun9-56.userapi.com/impg/yVpEUxNeqMkTABtZ8kt5qoDPGYq5ttYdDJigOA/zr5nSbgXijA.jpg?size=520x336&quality=95&sign=a588aceed8ecab3160caec7338a99ebe&type=album')">View</a>
+            </div>
+        </div>
+
+        <div class="certificate-card" data-course="course2">
+            <div class="certificate-image">
+                <img src="https://sun9-56.userapi.com/impg/FWMYHx6QPrAEQXDEqG2Hzrdr7LGVUCjlq988gA/ffNCAkOxMtU.jpg?size=520x336&quality=95&sign=0ec1ed034ce5e24dad1861973278d9dc&type=album" alt="WWII History Test">
+                <span class="certificate-badge">Year 2</span>
+            </div>
+            <div class="certificate-details">
+                <h3 class="certificate-title">WWII History Test</h3>
+                <div class="certificate-date">
+                    <i class="far fa-calendar-alt"></i>02.12.2022
+                </div>
+                <a href="#" class="view-certificate" onclick="openCertificateModal(event, 'https://sun9-56.userapi.com/impg/FWMYHx6QPrAEQXDEqG2Hzrdr7LGVUCjlq988gA/ffNCAkOxMtU.jpg?size=520x336&quality=95&sign=0ec1ed034ce5e24dad1861973278d9dc&type=album')">View</a>
+            </div>
+        </div>
+
+        <div class="certificate-card" data-course="course2">
+            <div class="certificate-image">
+                <img src="https://sun9-86.userapi.com/impg/LgVDYk9KKpR-UkNFMkbVfpdyHMEVXS3y0sbv3Q/lzXzkrII4Oo.jpg?size=520x336&quality=95&sign=8f1e4ad722df0fec91375556a37c61d5&type=album" alt="Online Quiz What Do I Know About Computer Graphics?">
+                <span class="certificate-badge">Year 2</span>
+            </div>
+            <div class="certificate-details">
+                <h3 class="certificate-title">Online Quiz "What Do I Know About Computer Graphics?"</h3>
+                <div class="certificate-date">
+                    <i class="far fa-calendar-alt"></i>02.12.2022
+                </div>
+                <a href="#" class="view-certificate" onclick="openCertificateModal(event, 'https://sun9-86.userapi.com/impg/LgVDYk9KKpR-UkNFMkbVfpdyHMEVXS3y0sbv3Q/lzXzkrII4Oo.jpg?size=520x336&quality=95&sign=8f1e4ad722df0fec91375556a37c61d5&type=album')">View</a>
+            </div>
+        </div>
+
+        <div class="certificate-card" data-course="course2">
+            <div class="certificate-image">
+                <img src="https://sun9-7.userapi.com/impg/6UDL9Ria5VFf5Kx04_Y-zDCgb6m-2_r2njFVpw/B0micJnPLs0.jpg?size=520x749&quality=95&sign=4601a9a855c04fe50ff75a81ec2f47b2&type=album" alt="All-Russian Online Financial Literacy Test">
+                <span class="certificate-badge">Year 2</span>
+            </div>
+            <div class="certificate-details">
+                <h3 class="certificate-title">All-Russian Online Financial Literacy Test</h3>
+                <div class="certificate-date">
+                    <i class="far fa-calendar-alt"></i>07.12.2022
+                </div>
+                <a href="#" class="view-certificate" onclick="openCertificateModal(event, 'https://sun9-7.userapi.com/impg/6UDL9Ria5VFf5Kx04_Y-zDCgb6m-2_r2njFVpw/B0micJnPLs0.jpg?size=520x749&quality=95&sign=4601a9a855c04fe50ff75a81ec2f47b2&type=album')">View</a>
+            </div>
+        </div>
+
+        <div class="certificate-card" data-course="course2">
+            <div class="certificate-image">
+                <img src="https://sun9-23.userapi.com/impg/8LbVLXRUTFEabGaTu57i2RVVmwXhxC6S7cS0JA/9eXUYY2Yy7o.jpg?size=520x336&quality=95&sign=06cafcdd65f3d5a0ec27c47f239cff96&type=album" alt="Great Ethnographic Dictation">
+                <span class="certificate-badge">Year 2</span>
+            </div>
+            <div class="certificate-details">
+                <h3 class="certificate-title">Great Ethnographic Dictation</h3>
+                <div class="certificate-date">
+                    <i class="far fa-calendar-alt"></i>03.11.2022
+                </div>
+                <a href="#" class="view-certificate" onclick="openCertificateModal(event, 'https://sun9-23.userapi.com/impg/8LbVLXRUTFEabGaTu57i2RVVmwXhxC6S7cS0JA/9eXUYY2Yy7o.jpg?size=520x336&quality=95&sign=06cafcdd65f3d5a0ec27c47f239cff96&type=album')">View</a>
+            </div>
+        </div>
+
+        <div class="certificate-card" data-course="course2">
+            <div class="certificate-image">
+                <img src="https://sun9-74.userapi.com/impg/x6PgNSj_kxYjsAVNMHwo46aUINoFjxO_V2bT6A/RVixNJRAHsc.jpg?size=520x336&quality=95&sign=3f46fce1fe8804ff30d1fa567df102fa&type=album" alt="Online Crossword Digital Security">
+                <span class="certificate-badge">Year 2</span>
+            </div>
+            <div class="certificate-details">
+                <h3 class="certificate-title">Online Crossword "Digital Security"</h3>
+                <div class="certificate-date">
+                    <i class="far fa-calendar-alt"></i>03.11.2022
+                </div>
+                <a href="#" class="view-certificate" onclick="openCertificateModal(event, 'https://sun9-74.userapi.com/impg/x6PgNSj_kxYjsAVNMHwo46aUINoFjxO_V2bT6A/RVixNJRAHsc.jpg?size=520x336&quality=95&sign=3f46fce1fe8804ff30d1fa567df102fa&type=album')">View</a>
+            </div>
+        </div>
+
+        <div class="certificate-card" data-course="course2">
+            <div class="certificate-image">
+                <img src="https://sun9-68.userapi.com/impg/6icBFZ5F95eWQU_ePmy-IMVfz_0O2LWZjyv_gw/vuIhqf5SeDI.jpg?size=520x780&quality=95&sign=d6dbd34cb8bf1565afaca8ca84b9e822&type=album" alt="All-Russian Ecological Dictation">
+                <span class="certificate-badge">Year 2</span>
+            </div>
+            <div class="certificate-details">
+                <h3 class="certificate-title">All-Russian Ecological Dictation</h3>
+                <div class="certificate-date">
+                    <i class="far fa-calendar-alt"></i>11.11.2022
+                </div>
+                <a href="#" class="view-certificate" onclick="openCertificateModal(event, 'https://sun9-68.userapi.com/impg/6icBFZ5F95eWQU_ePmy-IMVfz_0O2LWZjyv_gw/vuIhqf5SeDI.jpg?size=520x780&quality=95&sign=d6dbd34cb8bf1565afaca8ca84b9e822&type=album')">View</a>
+            </div>
+        </div>
+
+        <div class="certificate-card" data-course="course2">
+            <div class="certificate-image">
+                <img src="https://sun9-4.userapi.com/impg/JMdsmxNyzq8mfvTvOuE9wSCg3H3KQ3Vb5oOm7A/qxE_rEtMrPU.jpg?size=520x749&quality=95&sign=3f33a5cb087560a136b8257ff85c6682&type=album" alt="Military-Historical Game Battle of Stalingrad">
+                <span class="certificate-badge">Year 2</span>
+            </div>
+            <div class="certificate-details">
+                <h3 class="certificate-title">Military-Historical Game "Battle of Stalingrad"</h3>
+                <div class="certificate-date">
+                    <i class="far fa-calendar-alt"></i>15.02.2023
+                </div>
+                <a href="#" class="view-certificate" onclick="openCertificateModal(event, 'https://sun9-4.userapi.com/impg/JMdsmxNyzq8mfvTvOuE9wSCg3H3KQ3Vb5oOm7A/qxE_rEtMrPU.jpg?size=520x749&quality=95&sign=3f33a5cb087560a136b8257ff85c6682&type=album')">View</a>
+            </div>
+        </div>
+
+        <div class="certificate-card" data-course="course2">
+            <div class="certificate-image">
+                <img src="https://sun9-63.userapi.com/impg/vOcZUd6mKkCRj4S544zJERwjEHXhHDvumUgtdw/FywuVQPNWMw.jpg?size=520x780&quality=95&sign=e63f718b079a7f5aa3456ca59a48b33d&type=album" alt="Drill and Song Review Competition">
+                <span class="certificate-badge">Year 2</span>
+            </div>
+            <div class="certificate-details">
+                <h3 class="certificate-title">Drill and Song Review Competition</h3>
+                <div class="certificate-date">
+                    <i class="far fa-calendar-alt"></i>16.02.2023
+                </div>
+                <a href="#" class="view-certificate" onclick="openCertificateModal(event, 'https://sun9-63.userapi.com/impg/vOcZUd6mKkCRj4S544zJERwjEHXhHDvumUgtdw/FywuVQPNWMw.jpg?size=520x780&quality=95&sign=e63f718b079a7f5aa3456ca59a48b33d&type=album')">View</a>
+            </div>
+        </div>
+
+        <div class="certificate-card" data-course="course2">
+            <div class="certificate-image">
+                <img src="https://sun9-48.userapi.com/impg/KooIV_wCOvgp0nJaP0p62UWE4NNGD3_-9803Xw/qJeSBKRmyps.jpg?size=520x336&quality=95&sign=5a5cb3d40a3d61de7f95082795cdb83e&type=album" alt="Test Online Fraud">
+                <span class="certificate-badge">Year 2</span>
+            </div>
+            <div class="certificate-details">
+                <h3 class="certificate-title">Test "Online Fraud"</h3>
+                <div class="certificate-date">
+                    <i class="far fa-calendar-alt"></i>13.03.2023
+                </div>
+                <a href="#" class="view-certificate" onclick="openCertificateModal(event, 'https://sun9-48.userapi.com/impg/KooIV_wCOvgp0nJaP0p62UWE4NNGD3_-9803Xw/qJeSBKRmyps.jpg?size=520x336&quality=95&sign=5a5cb3d40a3d61de7f95082795cdb83e&type=album')">View</a>
+            </div>
+        </div>
+
+        <div class="certificate-card" data-course="course2">
+            <div class="certificate-image">
+                <img src="https://sun9-28.userapi.com/impg/KfRwXT1lGCVcukcoGiao2G5j73dJuBWhqVBgDA/GwmGBlA9acQ.jpg?size=520x305&quality=95&sign=da158f25a9f523d700c0c0d3ca9fe240&type=album" alt="Online Lesson Personal Financial Plan. Path to Achieving the Goal">
+                <span class="certificate-badge">Year 2</span>
+            </div>
+            <div class="certificate-details">
+                <h3 class="certificate-title">Online Lesson "Personal Financial Plan. Path to Achieving the Goal"</h3>
+                <div class="certificate-date">
+                    <i class="far fa-calendar-alt"></i>15.03.2023
+                </div>
+                <a href="#" class="view-certificate" onclick="openCertificateModal(event, 'https://sun9-28.userapi.com/impg/KfRwXT1lGCVcukcoGiao2G5j73dJuBWhqVBgDA/GwmGBlA9acQ.jpg?size=520x305&quality=95&sign=da158f25a9f523d700c0c0d3ca9fe240&type=album')">View</a>
+            </div>
+        </div>
+
+        <div class="certificate-card" data-course="course2">
+            <div class="certificate-image">
+                <img src="https://sun9-21.userapi.com/impg/-LNC4e2Kk3J9WGTudxVaEGTgeFMgBvsLH-pWHA/LIZqr5_T3vg.jpg?size=520x305&quality=95&sign=a10cddae33565ff956686b7fb49be218&type=album" alt="Online Lesson Stock Exchange and Basics of Investing">
+                
+                <span class="certificate-badge">Year 2</span>
+            </div>
+            <div class="certificate-details">
+                <h3 class="certificate-title">Online Lesson "Stock Exchange and Basics of Investing"</h3>
+                <div class="certificate-date">
+                    <i class="far fa-calendar-alt"></i>17.03.2023
+                </div>
+                <a href="#" class="view-certificate" onclick="openCertificateModal(event, 'https://sun9-21.userapi.com/impg/-LNC4e2Kk3J9WGTudxVaEGTgeFMgBvsLH-pWHA/LIZqr5_T3vg.jpg?size=520x305&quality=95&sign=a10cddae33565ff956686b7fb49be218&type=album')">View</a>
+            </div>
+        </div>
+
+        <div class="certificate-card" data-course="course2">
+            <div class="certificate-image">
+                <img src="https://sun9-22.userapi.com/impg/5ZC7rZ89X7vbzbwvqH9_fn2KI8WoK-9EYqUh2w/Yiofe1bOX4k.jpg?size=520x336&quality=95&sign=a34018ecf63b47a4a28029ee48fee66b&type=album" alt="Online Quiz Man in Space">
+          
+                <span class="certificate-badge">Year 2</span>
+            </div>
+            <div class="certificate-details">
+                <h3 class="certificate-title">Online Quiz "Man in Space"</h3>
+                <div class="certificate-date">
+                    <i class="far fa-calendar-alt"></i>14.04.2023
+                </div>
+                <a href="#" class="view-certificate" onclick="openCertificateModal(event, 'https://sun9-22.userapi.com/impg/5ZC7rZ89X7vbzbwvqH9_fn2KI8WoK-9EYqUh2w/Yiofe1bOX4k.jpg?size=520x336&quality=95&sign=a34018ecf63b47a4a28029ee48fee66b&type=album')">View</a>
+            </div>
+        </div>
+
+        <div class="certificate-card" data-course="course2">
+            <div class="certificate-image">
+                <img src="https://sun9-73.userapi.com/impg/cYnl17T_WXLrpv_rYBiw5Wyt-rFB7oOkAO913A/Uuk0iAt4ZtY.jpg?size=520x336&quality=95&sign=8ac13819824e5338eb4d0fbbddc49585&type=album" alt="All-Russian Student Scientific-Practical Conference Science and Education: Preserving the Past, Creating the Future">
+                   
+                <span class="certificate-badge">Year 2</span>
+            </div>
+            <div class="certificate-details">
+                <h3 class="certificate-title">All-Russian Student Scientific-Practical Conference "Science and Education: Preserving the Past, Creating the Future"</h3>
+                <div class="certificate-date">
+                    <i class="far fa-calendar-alt"></i>13.04.2023
+                </div>
+                <a href="#" class="view-certificate" onclick="openCertificateModal(event, 'https://sun9-73.userapi.com/impg/cYnl17T_WXLrpv_rYBiw5Wyt-rFB7oOkAO913A/Uuk0iAt4ZtY.jpg?size=520x336&quality=95&sign=8ac13819824e5338eb4d0fbbddc49585&type=album')">View</a>
+            </div>
+        </div>
+        
+        <!-- Certificate Year 3 -->
+        <div class="certificate-card" data-course="course3">
+            <div class="certificate-image">
+                <img src="https://sun9-30.userapi.com/impg/Vg2iC8Is7YLxnaskcuweTQS6x97F7_JKWjYiKg/-Li5ezkgZEA.jpg?size=520x366&quality=95&sign=909caa1e323d9ea6ce563164671e51cb&type=album" alt="IT/Dictation">
+                <span class="certificate-badge">Year 3</span>
+            </div>
+            <div class="certificate-details">
+                <h3 class="certificate-title">IT/Dictation</h3>
+                <div class="certificate-date">
+                    <i class="far fa-calendar-alt"></i> 13.09.2023
+                </div>
+                <a href="#" class="view-certificate" onclick="openCertificateModal(event, 'https://sun9-30.userapi.com/impg/Vg2iC8Is7YLxnaskcuweTQS6x97F7_JKWjYiKg/-Li5ezkgZEA.jpg?size=520x366&quality=95&sign=909caa1e323d9ea6ce563164671e51cb&type=album')">View</a>
+            </div>
+        </div>
+
+        <!-- Certificate Year 3 -->
+        <div class="certificate-card" data-course="course3">
+            <div class="certificate-image">
+                <img src="https://sun9-67.userapi.com/impg/VwGxohHqqhLeHhpvgFPKRVGTneuWjFvVt1KqrA/oQHOzwYaRVM.jpg?size=520x366&quality=95&sign=9b0b983faff499638b8f814ff882be31&type=album" alt="IT/Dictation">
+                <span class="certificate-badge">Year 3</span>
+            </div>
+            <div class="certificate-details">
+                <h3 class="certificate-title">IT/Dictation PRO</h3>
+                <div class="certificate-date">
+                    <i class="far fa-calendar-alt"></i> 13.09.2023
+                </div>
+                <a href="#" class="view-certificate" onclick="openCertificateModal(event, 'https://sun9-67.userapi.com/impg/VwGxohHqqhLeHhpvgFPKRVGTneuWjFvVt1KqrA/oQHOzwYaRVM.jpg?size=520x366&quality=95&sign=9b0b983faff499638b8f814ff882be31&type=album')">View</a>
+            </div>
+        </div>
+
+        <!-- Certificate Year 3 -->
+        <div class="certificate-card" data-course="course3">
+            <div class="certificate-image">
+                <img src="https://sun9-44.userapi.com/impg/l7lLED6wJE7HfYqRiyyNL7of4HNS6kJBsqWX5A/1XqvxG45_98.jpg?size=520x780&quality=95&sign=de65eb1da4f77a29c43e8c52bf576d90&type=album" alt="Digital Dictation">
+                <span class="certificate-badge">Year 3</span>
+            </div>
+            <div class="certificate-details">
+                <h3 class="certificate-title">"Digital Dictation"</h3>
+                <div class="certificate-date">
+                    <i class="far fa-calendar-alt"></i>29.09.2023
+                </div>
+                <a href="#" class="view-certificate" onclick="openCertificateModal(event, 'https://sun9-44.userapi.com/impg/l7lLED6wJE7HfYqRiyyNL7of4HNS6kJBsqWX5A/1XqvxG45_98.jpg?size=520x780&quality=95&sign=de65eb1da4f77a29c43e8c52bf576d90&type=album')">View</a>
+            </div>
+        </div>
+        
+        <!-- Certificate Year 3 -->
+        <div class="certificate-card" data-course="course3">
+            <div class="certificate-image">
+                <img src="https://sun9-36.userapi.com/impg/o7qF0hvQY7ge-65luzzjTAbn16UwZ_QgkfoWgw/txN--DjJ4-E.jpg?size=520x336&quality=95&sign=71e0082302e01fa5759f00ed464cb1e2&type=album" alt="All-Russian Online Competition 30 Years of the Russian Constitution - Test Yourself!">
+                <span class="certificate-badge">Year 3</span>
+            </div>
+            <div class="certificate-details">
+                <h3 class="certificate-title">All-Russian Online Competition "30 Years of the Russian Constitution - Test Yourself!"</h3>
+                <div class="certificate-date">
+                    <i class="far fa-calendar-alt"></i>01.10.2023
+                </div>
+                <a href="#" class="view-certificate" onclick="openCertificateModal(event, 'https://sun9-36.userapi.com/impg/o7qF0hvQY7ge-65luzzjTAbn16UwZ_QgkfoWgw/txN--DjJ4-E.jpg?size=520x336&quality=95&sign=71e0082302e01fa5759f00ed464cb1e2&type=album')">View</a>
+            </div>
+        </div>
+
+        <!-- Certificate Year 3 -->
+        <div class="certificate-card" data-course="course3">
+            <div class="certificate-image">
+                <img src="https://sun9-60.userapi.com/impg/VwfGFjndAYHZGDgpH0o5k9o5iuMSNaIAYP9Xag/ZAq7Z8DKoGc.jpg?size=520x336&quality=95&sign=e760e6efed841c2ae949c0b696b306f3&type=album" alt="Great Ethnographic Dictation">
+                <span class="certificate-badge">Year 3</span>
+            </div>
+            <div class="certificate-details">
+                <h3 class="certificate-title">Great Ethnographic Dictation</h3>
+                <div class="certificate-date">
+                    <i class="far fa-calendar-alt"></i>03.11.2023
+                </div>
+                <a href="#" class="view-certificate" onclick="openCertificateModal(event, 'https://sun9-60.userapi.com/impg/VwfGFjndAYHZGDgpH0o5k9o5iuMSNaIAYP9Xag/ZAq7Z8DKoGc.jpg?size=520x336&quality=95&sign=e760e6efed841c2ae949c0b696b306f3&type=album')">View</a>
+            </div>
+        </div>
+
+        <!-- Certificate Year 3 -->
+        <div class="certificate-card" data-course="course3">
+            <div class="certificate-image">
+                <img src="https://sun9-43.userapi.com/impg/kyUZfnxc-CYCPh-zOh8DxfstIEcfLDUmBih5qQ/nJ8rECkcmfY.jpg?size=520x749&quality=95&sign=25e7c2de9e44d96164451971a28ba630&type=album" alt="All-Russian Olympiad Time of Knowledge in the discipline: Computer Networks">
+                <span class="certificate-badge">Year 3</span>
+            </div>
+            <div class="certificate-details">
+                <h3 class="certificate-title">All-Russian Olympiad "Time of Knowledge" in the discipline: Computer Networks</h3>
+                <div class="certificate-date">
+                    <i class="far fa-calendar-alt"></i>02.11.2023
+                </div>
+                <a href="#" class="view-certificate" onclick="openCertificateModal(event, 'https://sun9-43.userapi.com/impg/kyUZfnxc-CYCPh-zOh8DxfstIEcfLDUmBih5qQ/nJ8rECkcmfY.jpg?size=520x749&quality=95&sign=25e7c2de9e44d96164451971a28ba630&type=album')">View</a>
+            </div>
+        </div>
+
+        <!-- Certificate Year 3 -->
+        <div class="certificate-card" data-course="course3">
+            <div class="certificate-image">
+                <img src="https://sun9-74.userapi.com/impg/TddguZeu4vKVtAksT_EZwLfeqgK4F_UBvLNBxA/_dJsCFNIerI.jpg?size=520x749&quality=95&sign=28869cd5501fc8d99fef9b1ad2aaa5fe&type=album" alt="All-Russian Online Financial Literacy Test">
+                <span class="certificate-badge">Year 3</span>
+            </div>
+            <div class="certificate-details">
+                <h3 class="certificate-title">All-Russian Online Financial Literacy Test</h3>
+                <div class="certificate-date">
+                    <i class="far fa-calendar-alt"></i>20.11.2023
+                </div>
+                <a href="#" class="view-certificate" onclick="openCertificateModal(event, 'https://sun9-74.userapi.com/impg/TddguZeu4vKVtAksT_EZwLfeqgK4F_UBvLNBxA/_dJsCFNIerI.jpg?size=520x749&quality=95&sign=28869cd5501fc8d99fef9b1ad2aaa5fe&type=album')">View</a>
+            </div>
+        </div>
+
+        <!-- Certificate Year 3 -->
+        <div class="certificate-card" data-course="course3">
+            <div class="certificate-image">
+                <img src="https://sun9-45.userapi.com/impg/PWUH6SgoVWe2Ord0WZpT6zv_5BQpNUQ1fblYrQ/5ephLhafKfU.jpg?size=520x749&quality=95&sign=91c7d91528859750e59901a244ce4cd1&type=album" alt="Lesson Cybersecurity of the Future">
+                <span class="certificate-badge">Year 3</span>
+            </div>
+            <div class="certificate-details">
+                <h3 class="certificate-title">Lesson "Cybersecurity of the Future"</h3>
+                <div class="certificate-date">
+                    <i class="far fa-calendar-alt"></i>03.02.2024
+                </div>
+                <a href="#" class="view-certificate" onclick="openCertificateModal(event, 'https://sun9-45.userapi.com/impg/PWUH6SgoVWe2Ord0WZpT6zv_5BQpNUQ1fblYrQ/5ephLhafKfU.jpg?size=520x749&quality=95&sign=91c7d91528859750e59901a244ce4cd1&type=album')">View</a>
+            </div>
+        </div>
+
+        <div class="certificate-card" data-course="course3">
+            <div class="certificate-image">
+                <img src="https://sun9-65.userapi.com/impg/OykddQRt0O53dYPIVb81G_POxzmIBEQ-Wk7zjA/f6gorfzin-8.jpg?size=520x749&quality=95&sign=70a69c13b594cbbedadc4a1d2c96880a&type=album" alt="Lesson Testing Technologies">
+                <span class="certificate-badge">Year 3</span>
+            </div>
+            <div class="certificate-details">
+                <h3 class="certificate-title">Lesson "Testing Technologies"</h3>
+                <div class="certificate-date">
+                    <i class="far fa-calendar-alt"></i>20.03.2024
+                </div>
+                <a href="#" class="view-certificate" onclick="openCertificateModal(event, 'https://sun9-65.userapi.com/impg/OykddQRt0O53dYPIVb81G_POxzmIBEQ-Wk7zjA/f6gorfzin-8.jpg?size=520x749&quality=95&sign=70a69c13b594cbbedadc4a1d2c96880a&type=album')">View</a>
+            </div>
+        </div>
+
+        <div class="certificate-card" data-course="course3">
+            <div class="certificate-image">
+                <img src="https://sun9-65.userapi.com/impg/vNdmlH5Pzha4vzhgm-Dp-S6u8Yhw1Md5kYkUlw/fNqQwY7wAKA.jpg?size=520x336&quality=95&sign=97a75f54ed926e49b6bc2cdba80d6eab&type=album" alt="Python Programming Course">
+                <span class="certificate-badge">Year 3</span>
+            </div>
+            <div class="certificate-details">
+                <h3 class="certificate-title">Course "Python Programming"</h3>
+                <div class="certificate-date">
+                    <i class="far fa-calendar-alt"></i>07.11.2023
+                </div>
+                <a href="#" class="view-certificate" onclick="openCertificateModal(event, 'https://sun9-65.userapi.com/impg/vNdmlH5Pzha4vzhgm-Dp-S6u8Yhw1Md5kYkUlw/fNqQwY7wAKA.jpg?size=520x336&quality=95&sign=97a75f54ed926e49b6bc2cdba80d6eab&type=album')">View</a>
+            </div>
+        </div>
+
+        <div class="certificate-card" data-course="course3">
+            <div class="certificate-image">
+                <img src="https://sun9-20.userapi.com/impg/JA81xni8d5ULT-7T9WPdiMboD9SbppLsq9Dr2g/0JuFAZzluJc.jpg?size=520x336&quality=95&sign=9f3ecc3da38873fd0c0cb7d0c2fc298f&type=album" alt="Hackathon IT-Tepe">
+                <span class="certificate-badge">Year 3</span>
+            </div>
+            <div class="certificate-details">
+                <h3 class="certificate-title">Hackathon "IT-Tepe"</h3>
+                <div class="certificate-date">
+                    <i class="far fa-calendar-alt"></i>2024
+                </div>
+                <a href="#" class="view-certificate" onclick="openCertificateModal(event, 'https://sun9-20.userapi.com/impg/JA81xni8d5ULT-7T9WPdiMboD9SbppLsq9Dr2g/0JuFAZzluJc.jpg?size=520x336&quality=95&sign=9f3ecc3da38873fd0c0cb7d0c2fc298f&type=album')">View</a>
+            </div>
+        </div>
+        
+        
+        <!-- Certificate Year 4 -->
+        <div class="certificate-card" data-course="course4">
+            <div class="certificate-image">
+                <img src="https://sun9-80.userapi.com/impg/IeTbb9GQNDdG4c91TY2qNn2wTFQdK342uftBWw/ehxRp7amE7w.jpg?size=520x749&quality=95&sign=5a8e1a8f3d4b771591556a47b6de733d&type=albumg" alt="Video Technologies">
+                <span class="certificate-badge">Year 4</span>
+            </div>
+            <div class="certificate-details">
+                <h3 class="certificate-title">Lesson "Video Technologies"</h3>
+                <div class="certificate-date">
+                    <i class="far fa-calendar-alt"></i> 25.09.2024
+                </div>
+                <a href="#" class="view-certificate" onclick="openCertificateModal(event, 'https://sun9-80.userapi.com/impg/IeTbb9GQNDdG4c91TY2qNn2wTFQdK342uftBWw/ehxRp7amE7w.jpg?size=520x749&quality=95&sign=5a8e1a8f3d4b771591556a47b6de733d&type=album')">View</a>
+            </div>
+        </div>
+
+        <!-- Certificate Year 4 -->
+        <div class="certificate-card" data-course="course4">
+            <div class="certificate-image">
+                <img src="https://sun9-63.userapi.com/impg/Yo2KZVeky9kXNdO9ePbm-7ke7iLy8oZL3yOiIA/-BYY1neUd-Y.jpg?size=520x749&quality=95&sign=9d5c4824397157a7568d0cfc55e5fa17&type=album" alt="Informatics Olympiad">
+                <span class="certificate-badge">Year 4</span>
+            </div>
+            <div class="certificate-details">
+                <h3 class="certificate-title">Informatics Olympiad</h3>
+                <div class="certificate-date">
+                    <i class="far fa-calendar-alt"></i>11.11.2024
+                </div>
+                <a href="#" class="view-certificate" onclick="openCertificateModal(event, 'https://sun9-63.userapi.com/impg/Yo2KZVeky9kXNdO9ePbm-7ke7iLy8oZL3yOiIA/-BYY1neUd-Y.jpg?size=520x749&quality=95&sign=9d5c4824397157a7568d0cfc55e5fa17&type=album')">View</a>
+            </div>
+        </div>
+
+        <!-- Certificate Year 4 -->
+        <div class="certificate-card" data-course="course4">
+            <div class="certificate-image">
+                <img src="https://sun9-80.userapi.com/impg/QskghdWOO26aLlHhds0ZBYn8iAgDQxkJM5pQ8w/ODJnPdwnePA.jpg?size=520x336&quality=95&sign=83ea64bfd8dd86c47fc07244e64bafbc&type=album" alt="Ethnographic Dictation">
+                <span class="certificate-badge">Year 4</span>
+            </div>
+            <div class="certificate-details">
+                <h3 class="certificate-title">Ethnographic Dictation</h3>
+                <div class="certificate-date">
+                    <i class="far fa-calendar-alt"></i>07.11.2024
+                </div>
+                <a href="#" class="view-certificate" onclick="openCertificateModal(event, 'https://sun9-80.userapi.com/impg/QskghdWOO26aLlHhds0ZBYn8iAgDQxkJM5pQ8w/ODJnPdwnePA.jpg?size=520x336&quality=95&sign=83ea64bfd8dd86c47fc07244e64bafbc&type=album')">View</a>
+            </div>
+        </div>
+
+        <!-- Certificate Year 4 -->
+        <div class="certificate-card" data-course="course4">
+            <div class="certificate-image">
+                <img src="https://sun9-8.userapi.com/impg/nw6o_30Tt9QhFlwVOmfSKxro8IHlKvjkPMKpWA/YcCcCDMi5mk.jpg?size=1240x1755&quality=95&sign=c3fe1814d83480c5118d239f958e8632&type=album" alt="All-Russian Olympiad Time of Knowledge in the discipline: Databases">
+                <span class="certificate-badge">Year 4</span>
+            </div>
+            <div class="certificate-details">
+                <h3 class="certificate-title">All-Russian Olympiad "Time of Knowledge" in the discipline: Databases</h3>
+                <div class="certificate-date">
+                    <i class="far fa-calendar-alt"></i>14.01.2025
+                </div>
+                <a href="#" class="view-certificate" onclick="openCertificateModal(event, 'https://sun9-8.userapi.com/impg/nw6o_30Tt9QhFlwVOmfSKxro8IHlKvjkPMKpWA/YcCcCDMi5mk.jpg?size=1240x1755&quality=95&sign=c3fe1814d83480c5118d239f958e8632&type=album')">View</a>
+            </div>
+        </div>
+
+        <!-- Certificate Year 4 -->
+        <div class="certificate-card" data-course="course4">
+            <div class="certificate-image">
+                <img src="https://sun9-7.userapi.com/impg/wdkmIuOUZufrKAHMCSxbx9lXTCqO_BVqzQeIsQ/sOUun7kK444.jpg?size=1241x1754&quality=95&sign=71592e4759c71971754c98ca95c3b4a6&type=album" alt="All-Russian Olympiad in the specialty Information Systems and Programming">
+                <span class="certificate-badge">Year 4</span>
+            </div>
+            <div class="certificate-details">
+                <h3 class="certificate-title">All-Russian Olympiad in the specialty "Information Systems and Programming"</h3>
+                <div class="certificate-date">
+                    <i class="far fa-calendar-alt"></i>15.01.2025
+                </div>
+                <a href="#" class="view-certificate" onclick="openCertificateModal(event, 'https://sun9-7.userapi.com/impg/wdkmIuOUZufrKAHMCSxbx9lXTCqO_BVqzQeIsQ/sOUun7kK444.jpg?size=1241x1754&quality=95&sign=71592e4759c71971754c98ca95c3b4a6&type=album')">View</a>
+            </div>
+        </div>
+
+        <!-- Certificate Year 4 -->
+        <div class="certificate-card" data-course="course4">
+            <div class="certificate-image">
+                <img src="https://sun9-79.userapi.com/impg/hvaK5ESCk8Urhhm-0_qay5wisHI9TiTvHKww2w/P09toOB00Hc.jpg?size=1527x2160&quality=95&sign=c142a1dcc46f6c8779b81b7e12b04449&type=album" alt="All-Russian Olympiad Fundamentals of Algorithmization and Programming">
+                <span class="certificate-badge">Year 4</span>
+            </div>
+            <div class="certificate-details">
+                <h3 class="certificate-title">All-Russian Olympiad "Fundamentals of Algorithmization and Programming"</h3>
+                <div class="certificate-date">
+                    <i class="far fa-calendar-alt"></i>15.01.2025
+                </div>
+                <a href="#" class="view-certificate" onclick="openCertificateModal(event, 'https://sun9-79.userapi.com/impg/hvaK5ESCk8Urhhm-0_qay5wisHI9TiTvHKww2w/P09toOB00Hc.jpg?size=1527x2160&quality=95&sign=c142a1dcc46f6c8779b81b7e12b04449&type=album')">View</a>
+            </div>
+        </div>
+
+        <!-- Certificate Year 4 -->
+        <div class="certificate-card" data-course="course4">
+            <div class="certificate-image">
+                <img src="https://sun9-78.userapi.com/impg/BzjZ9rSPdl2mfRdmx9_8VxM2g2APM0LBtZ0hPw/Eu81mP9lyck.jpg?size=1527x2160&quality=95&sign=94d59ed48a7a78b43e7bd63f6168b366&type=album" alt="All-Russian Olympiad in the discipline: Database Design">
+                <span class="certificate-badge">Year 4</span>
+            </div>
+            <div class="certificate-details">
+                <h3 class="certificate-title">All-Russian Olympiad in the discipline: "Database Design"</h3>
+                <div class="certificate-date">
+                    <i class="far fa-calendar-alt"></i>15.01.2025
+                </div>
+                <a href="#" class="view-certificate" onclick="openCertificateModal(event, 'https://sun9-78.userapi.com/impg/BzjZ9rSPdl2mfRdmx9_8VxM2g2APM0LBtZ0hPw/Eu81mP9lyck.jpg?size=1527x2160&quality=95&sign=94d59ed48a7a78b43e7bd63f6168b366&type=album')">View</a>
+            </div>
+        </div>
+
+        <!-- Certificate Year 4 -->
+        <div class="certificate-card" data-course="course4">
+            <div class="certificate-image">
+                <img src="https://sun9-76.userapi.com/impg/eokcJCeWjB-q6EmBC_3--3dy64PMPSUDLPXu6g/rRA9vujmZY8.jpg?size=1754x1241&quality=95&sign=ba72585b5707eade9bf93543781700af&type=album" alt="International Olympiad Future Trajectory in the direction: Information Security">
+                <span class="certificate-badge">Year 4</span>
+            </div>
+            <div class="certificate-details">
+                <h3 class="certificate-title">International Olympiad "Future Trajectory" in the direction: "Information Security"</h3>
+                <div class="certificate-date">
+                    <i class="far fa-calendar-alt"></i>16.01.2025
+                </div>
+                <a href="#" class="view-certificate" onclick="openCertificateModal(event, 'https://sun9-76.userapi.com/impg/eokcJCeWjB-q6EmBC_3--3dy64PMPSUDLPXu6g/rRA9vujmZY8.jpg?size=1754x1241&quality=95&sign=ba72585b5707eade9bf93543781700af&type=album')">View</a>
+            </div>
+        </div>
+
+        <div class="certificate-card" data-course="course4">
+            <div class="certificate-image">
+                <img src="https://sun141-2.userapi.com/impg/_tEzCRx_zx9PTNUgVnzlxGkonyKukVcPDn-deg/jznFKEj2XOQ.jpg?size=1280x906&quality=95&sign=dbf15b760c1387584532ecf0efb17990&type=album" alt="International Olympiad Future Trajectory in the direction: Neural Network Design in Python">
+                <span class="certificate-badge">Year 4</span>
+            </div>
+            <div class="certificate-details">
+                <h3 class="certificate-title">International Olympiad "Future Trajectory" in the direction: "Neural Network Design in Python"</h3>
+                <div class="certificate-date">
+                    <i class="far fa-calendar-alt"></i>17.01.2025
+                </div>
+                <a href="#" class="view-certificate" onclick="openCertificateModal(event, 'https://sun141-2.userapi.com/impg/_tEzCRx_zx9PTNUgVnzlxGkonyKukVcPDn-deg/jznFKEj2XOQ.jpg?size=1280x906&quality=95&sign=dbf15b760c1387584532ecf0efb17990&type=album')">View</a>
+            </div>
+        </div>
+        
+        <div class="certificate-card" data-course="course4">
+            <div class="certificate-image">
+                <img src="https://sun9-5.userapi.com/impg/XABwSAa0Zg-Af87YBdZChbxpOWWLE6uQo5lKpA/btXi-84xz0M.jpg?size=1280x906&quality=95&sign=5200ff1dfff3b6547522244d42a72e0b&type=album" alt="International Olympiad Future Trajectory in the direction: Graphic Design">
+                <span class="certificate-badge">Year 4</span>
+            </div>
+            <div class="certificate-details">
+                <h3 class="certificate-title">International Olympiad "Future Trajectory" in the direction: "Graphic Design"</h3>
+                <div class="certificate-date">
+                    <i class="far fa-calendar-alt"></i>17.01.2025
+                </div>
+                <a href="#" class="view-certificate" onclick="openCertificateModal(event, 'https://sun9-5.userapi.com/impg/XABwSAa0Zg-Af87YBdZChbxpOWWLE6uQo5lKpA/btXi-84xz0M.jpg?size=1280x906&quality=95&sign=5200ff1dfff3b6547522244d42a72e0b&type=album')">View</a>
+            </div>
+        </div>
+
+        <div class="certificate-card" data-course="course4">
+            <div class="certificate-image">
+                <img src="https://sun9-30.userapi.com/impg/XCYYyv0j_vKJ9H0lWmkXGsjO6kWZaW4f6-o7KQ/yggNlOWGn0Q.jpg?size=764x1080&quality=95&sign=a71bac3b4d772bcbdae8d4425955cd0e&type=album" alt="International Olympiad IT-Planet 2025 in the direction: Postgres Professional">
+                <span class="certificate-badge">Year 4</span>
+            </div>
+            <div class="certificate-details">
+                <h3 class="certificate-title">International Olympiad "IT-Planet 2025" in the direction: "Postgres Professional"</h3>
+                <div class="certificate-date">
+                    <i class="far fa-calendar-alt"></i>31.03.2025
+                </div>
+                <a href="#" class="view-certificate" onclick="openCertificateModal(event, 'https://sun9-30.userapi.com/impg/XCYYyv0j_vKJ9H0lWmkXGsjO6kWZaW4f6-o7KQ/yggNlOWGn0Q.jpg?size=764x1080&quality=95&sign=a71bac3b4d772bcbdae8d4425955cd0e&type=album')">View</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Modal window for viewing certificates -->
+<div id="certificateModal" class="certificate-modal">
+    <span class="close" onclick="closeCertificateModal()">&times;</span>
+    <img class="modal-content" id="certificateImage">
+</div>
+
+
+<!-- projects-section -->
+<section class="project" id="project-section">
+    <h2 class="heading">Projects</h2>
+    <div class="seperator"></div>
+    
+    <div class="projects-container">
+        <!-- Category: Databases -->
+        <div class="project-category">
+            <h3 class="category-title">Databases</h3>
+            <div class="project-gallery">
+                <div class="project-item">
+                    <div class="project-image">
+                        <img src="https://sun9-55.userapi.com/s/v1/ig2/bldLx3LxzKBnUODz_vl_736nF2YeJNnO12Qo3OfBX_H44vKVGNHajmC6pXAJIoxq2VYO_Z4ikiLUYi4wFdlXIXSR.jpg?quality=95&as=32x23,48x35,72x52,108x79,160x117,240x175,360x262,480x350,540x394,598x436&from=bu&u=wmebKsmzqDXu9Qj--ujdg4waaT4AozpgO4LK7OXoo40&cs=598x436" 
+                             alt="Python project 1" 
+                             onclick="openModal('b1', 0)">
+                    </div>
+                    <div class="project-details">
+                        <h4 class="project-name">Library</h4>
+                        <p class="project-description">
+                            A comprehensive database for tracking books, readers, and book loans.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">SQL, C#</span>
+                            <span class="tech-tag">SQL Server Management Studio</span>
+                            <span class="tech-tag">Visual Studio</span>
+                        </div>
+                        
+                        <a href="#" class="view-certificate" onclick="openModal(event, 'bd1', 0)">Details</a>
+
+                    </div>
+                    
+                    <!-- Hidden images for modal window -->
+                    <div class="hidden-images" id="bd1">
+                        <img src="https://sun9-55.userapi.com/s/v1/ig2/bldLx3LxzKBnUODz_vl_736nF2YeJNnO12Qo3OfBX_H44vKVGNHajmC6pXAJIoxq2VYO_Z4ikiLUYi4wFdlXIXSR.jpg?quality=95&as=32x23,48x35,72x52,108x79,160x117,240x175,360x262,480x350,540x394,598x436&from=bu&u=wmebKsmzqDXu9Qj--ujdg4waaT4AozpgO4LK7OXoo40&cs=598x436" 
+                             alt="Main project image">
+                        <img src="https://sun9-38.userapi.com/impg/syHXjcVPJ5MKNFvlTc1zcgM9ZTrY3bOuFRslzw/Cje6Xi4VPAU.jpg?size=1035x666&quality=95&sign=301313c5fc269584eedd09bea8158024&type=album" 
+                             alt="Main program window">
+                        <img src="https://sun9-16.userapi.com/impg/OWNrO6wIz98Ds-QbklLjsIOHdnwuZhr_-DbxPA/ZxTYtswUl98.jpg?size=800x357&quality=95&sign=20d870d880a4e47d46ca39030982199b&type=album" 
+                             alt="Text analysis example">
+                        <img src="https://sun9-8.userapi.com/impg/iRet6PBE82CInuynoqvzgb-Upg8tTgIs3lBzkA/Xm3QaT1SjoU.jpg?size=695x440&quality=95&sign=7350e1ac7ae41c12e666f0f48bc3f8a6&type=album" 
+                             alt="Result graphs">
+                             <img src="https://sun9-21.userapi.com/impg/TPxgpR7gYQz7V-5KI2imLekXTj0p2_dV_fYEwA/EucCinoZeMA.jpg?size=427x370&quality=95&sign=1d692254e8f7034c1ffe64fc48d9b436&type=album" 
+                             alt="Main program window">
+                        <img src="https://sun9-78.userapi.com/impg/zXfT2cMgPun-WaWkWaLmPvP17Piq16D7nZT5YQ/ivBCu8dRgj0.jpg?size=927x615&quality=95&sign=7af3189e2941166261b776ca7cc99568&type=album" 
+                             alt="Text analysis example">
+                        <img src="https://sun9-26.userapi.com/impg/deyFB22alngjv372JOcjuyQmDSNLZii8FBec3A/i00uyOfetzE.jpg?size=1205x660&quality=95&sign=6ee6d2b1d0aa0526b3f0ee990d0776f7&type=album" 
+                             alt="Result graphs">
+                    </div>
+                </div>
+
+                <div class="project-item">
+                    <div class="project-image">
+                        <img src="https://sun9-15.userapi.com/impg/i-HOrr8JZeiZq5tYoHBg7ktHuVb6OemABpl1Iw/eo5R8zkECyM.jpg?size=989x584&quality=95&sign=282905dfa01d1d7a2ed8601494dd4d7a&type=album" 
+                             alt="Python project 1" 
+                             onclick="openModal('bd2', 0)">
+                    </div>
+                    <div class="project-details">
+                        <h4 class="project-name">Orders</h4>
+                        <p class="project-description">
+                            A database for tracking orders with filtering, search, and sorting capabilities.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">SQL, Python, Tkinter</span>
+                            <span class="tech-tag">SQL Server Management Studio</span>
+                            <span class="tech-tag">PyCharm</span>
+                        </div>
+                        
+                        <a href="#" class="view-certificate" onclick="openModal(event, 'bd2', 0)">Details</a>
+
+                    </div>
+                    
+                    <!-- Hidden images for modal window -->
+                    <div class="hidden-images" id="bd2">
+                        <img src="https://sun9-15.userapi.com/impg/i-HOrr8JZeiZq5tYoHBg7ktHuVb6OemABpl1Iw/eo5R8zkECyM.jpg?size=989x584&quality=95&sign=282905dfa01d1d7a2ed8601494dd4d7a&type=album" 
+                             alt="Main project image">
+
+                        <img src="https://sun9-44.userapi.com/impg/LUfUCB9JP-Xr3b9yqXRN-LqmkLw6uk8SQBhsew/Lbe6130x13E.jpg?size=1116x657&quality=95&sign=988a3f46a40baa7ef15ec8e667e3a6b6&type=album" 
+                             alt="Main program window">
+                        <img src="https://sun9-11.userapi.com/impg/VSnHqwgAdl0vFsZaOziSOfV6g5SWFfbenzVFwQ/-hlYNBQYLC0.jpg?size=1119x658&quality=95&sign=9c649ad1f59139ce8707d0b9c203c38b&type=album" 
+                             alt="Text analysis example">
+                        <img src="https://sun9-34.userapi.com/impg/Mt1Ri2uHtwgLOaZmf5hDMo98kvSkiGJWtMiNcw/tDSGhNSISYw.jpg?size=1117x662&quality=95&sign=dde685b520a7409608d937ff5d9adbd2&type=album" 
+                             alt="Result graphs">
+                             <img src="https://sun9-58.userapi.com/impg/dSCyCVEkGgCb4JvhMmrDbrEGKwXCJnWWiUR7_g/gCoewyxbV3M.jpg?size=1260x674&quality=95&sign=ac9c1f85facb5b9aced8228b5add8480&type=album" 
+                             alt="Main program window">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Category: Python Programming -->
+        <div class="project-category">
+            <h3 class="category-title">Python Programming</h3>
+            <div class="project-gallery">
+                <!-- Project 1 -->
+                <div class="project-item">
+                    <div class="project-image">
+                        <img src="https://sun9-80.userapi.com/impg/ATZlhWXtqoi4L1El1b_7aTIA14klZzTibK4ACw/AkV1d18_Xo0.jpg?size=2472x2448&quality=95&sign=8455ed31e02eee3ccb1760d1856ed5e8&type=album" 
+                             alt="Python project 1" 
+                             onclick="openModal('py1', 0)">
+                    </div>
+                    <div class="project-details">
+                        <h4 class="project-name">Municipal Employee Certification</h4>
+                        <p class="project-description">
+                            A program for conducting certification of municipal employees.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Tkinter</span>
+                        </div>
+                        
+                        <a href="#" class="view-certificate" onclick="openModal(event, 'py1', 0)">Details</a>
+
+                    </div>
+                    
+                    <!-- Hidden images for modal window -->
+                    <div class="hidden-images" id="py1">
+                        <img src="https://sun9-80.userapi.com/impg/ATZlhWXtqoi4L1El1b_7aTIA14klZzTibK4ACw/AkV1d18_Xo0.jpg?size=2472x2448&quality=95&sign=8455ed31e02eee3ccb1760d1856ed5e8&type=album" 
+                             alt="Main project image">
+                        <img src="https://sun9-19.userapi.com/impg/eFhv7eIVQ-3rFhd7j9UkiPNypWQv12pAL1shQw/kwecMAdz9Dg.jpg?size=1310x552&quality=95&sign=d972d0b81946cbe030255a74d6427aa2&type=album" 
+                             alt="Main program window">
+                        <img src="https://sun9-35.userapi.com/impg/ayauY-9yBpe5CiNFQN7Z59T-8zQWDSnWY_CnxQ/y8IcLyLJrfM.jpg?size=1522x879&quality=95&sign=b8be28e9858a129bc376496033c960e4&type=album" 
+                             alt="Text analysis example">
+                        <img src="https://sun9-78.userapi.com/impg/fHSRdLx9SSPa8q58Nb7Z3AHWzwnSQHuFmoBtaQ/L2wfSrVmlYc.jpg?size=1068x840&quality=95&sign=513f7f68646681aac8724302eab092df&type=album" 
+                             alt="Result graphs">
+                    </div>
+                </div>
+            </div>
+        </div>
+                
+  
+        
+        <!-- Category: Computer Graphics -->
+        <div class="project-category">
+            <h3 class="category-title">Computer Graphics</h3>
+            <div class="project-gallery">
+                <!-- Project 1 -->
+                <div class="project-item">
+                    <div class="project-image">
+                        <img src="https://sun9-68.userapi.com/impg/Q9MXUB7Vlt2U1Kp_tecNmTbaOo9ldl1fqddkvA/XF9rMjvqOA0.jpg?size=1754x1241&quality=95&sign=d6218dd625deab412022b4f6b3307d0a&type=album" 
+                             alt="Python project 1" 
+                             onclick="openModal('kg1', 0)">
+                    </div>
+                    <div class="project-details">
+                        <h4 class="project-name">Poster and Diploma for Historical-Tourist Quest "Blagoveshchensk_Tourist"</h4>
+                        <div class="project-tech">
+                            <span class="tech-tag">CorelDRAW</span>
+                        </div>
+                        
+                        <a href="#" class="view-certificate" onclick="openModal(event, 'kg1', 0)">Details</a>
+
+                    </div>
+                    
+                    <!-- Hidden images for modal window -->
+                    <div class="hidden-images" id="kg1">
+                        <img src="https://sun9-68.userapi.com/impg/Q9MXUB7Vlt2U1Kp_tecNmTbaOo9ldl1fqddkvA/XF9rMjvqOA0.jpg?size=1754x1241&quality=95&sign=d6218dd625deab412022b4f6b3307d0a&type=album" 
+                             alt="Main project image">
+                        <img src="https://sun9-8.userapi.com/s/v1/ig2/XgS4pHvt5Zx9dK4RToxv-3KeUEYwkVPHdMhUkmg42bpDJubdyQUF9sT6qGgzC-mLLaCXc2nNTpNrXQe3uR1-Pie6.jpg?quality=95&as=32x45,48x68,72x102,108x153,160x226,240x339,360x509,480x678,540x763,640x905,720x1018,1080x1526,1241x1754&from=bu&u=L398tC5uaiMJH_H8pzRbIxVhK7KFgeqvvzLqh68mOiE&cs=1241x1754" 
+                             alt="Main program window">
+                    </div>
+                </div>
+
+                <div class="project-item">
+                    <div class="project-image">
+                        <img src="https://sun9-4.userapi.com/impg/D0QmZhRTWXqlahStB7tgrSsc-fvVUceKJTJrnQ/puri_f6xBEU.jpg?size=316x802&quality=95&sign=87f855d7d005de67ba9b7f0eca07752a&type=album" 
+                             alt="Python project 1" 
+                             onclick="openModal('kg2', 0)">
+                    </div>
+                    <div class="project-details">
+                        <h4 class="project-name">Tattoo Studio Website Mockup</h4>
+                        <div class="project-tech">
+                            <span class="tech-tag">Adobe Photoshop</span>
+                        </div>
+                        
+                        <a href="#" class="view-certificate" onclick="openModal(event, 'kg2', 0)">Details</a>
+
+                    </div>
+                    
+                    <!-- Hidden images for modal window -->
+                    <div class="hidden-images" id="kg2">
+                        <img src="https://sun9-4.userapi.com/impg/D0QmZhRTWXqlahStB7tgrSsc-fvVUceKJTJrnQ/puri_f6xBEU.jpg?size=316x802&quality=95&sign=87f855d7d005de67ba9b7f0eca07752a&type=album" 
+                             alt="Main project image">
+                    </div>
+                </div>
+
+
+                <div class="project-item">
+                    <div class="project-image">
+                        <img src="https://sun9-75.userapi.com/impg/XuFAZw7N68tq-vqomWmkjRoZCnEq0hUkCYlPog/pmQ4hCnHJb0.jpg?size=2446x1890&quality=95&sign=a8d5f4b1ef844f542db84ef6ab4d6acb&type=album" 
+                             alt="Python project 1" 
+                             onclick="openModal('kg3', 0)">
+                    </div>
+                    <div class="project-details">
+                        <h4 class="project-name">Rock Merchandise Store Logo</h4>
+                        <div class="project-tech">
+                            <span class="tech-tag">Adobe Illustrator</span>
+                        </div>
+                        
+                        <a href="#" class="view-certificate" onclick="openModal(event, 'kg3', 0)">Details</a>
+
+                    </div>
+                    
+                    <!-- Hidden images for modal window -->
+                    <div class="hidden-images" id="kg3">
+                        <img src="https://sun9-21.userapi.com/impg/DDUU9QvrTNWUKPARZnRtQLI4po19mFysVdrtLQ/w7Mpd4xhi_I.jpg?size=2479x2195&quality=95&sign=52f423fa8ae3789d12c48927d0299e6c&type=album" 
+                             alt="Main project image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Modal window for projects -->
+<div id="projectModal" class="project-modal">
+    <span class="close" onclick="closeProjectModal()">&times;</span>
+    <img class="project-modal-content" id="projectImage">
+</div>
+
+<!-- Modal window for full-size viewing -->
+<div id="myModal" class="modal">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <div class="modal-content-container">
+        <img class="modal-content" id="modalImage">
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <div class="thumbnail-container" id="thumbnailContainer"></div>
+</div>
+
+<!-- footer-section -->
+<section class="footer" id="contact-section">
+    <div class="footer">
+        <div class="footer-icons">
+            <h4>+7 (963) 807-37-40</h4>
+            <h4>danilejcukksenia@gmail.com</h4>
+        </div>
+    </div> 
+</section>
+
+<script src="app.js"></script>
+<script>
+    // Filter certificates by year
+    function filterCertificates(course, button) {
+        // Remove active class from all buttons
+        document.querySelectorAll('.filter-btn').forEach(btn => {
+            btn.classList.remove('active');
+        });
+
+        // Add active class to current button
+        if (button) {
+            button.classList.add('active');
+        }
+
+        // Show/hide certificates
+        const certificates = document.querySelectorAll('.certificate-card');
+        certificates.forEach(cert => {
+            if (course === 'all' || cert.getAttribute('data-course') === course) {
+                cert.style.display = 'block';
+            } else {
+                cert.style.display = 'none';
+            }
+        });
+    }
+
+    // Open certificate modal
+    function openCertificateModal(event, imgSrc) {
+    event.preventDefault(); // Prevents jumping to # (top of page)
+    
+    // Logic for opening modal window
+    const modal = document.querySelector('.certificate-modal');
+    const modalImg = modal.querySelector('.modal-content');
+
+    modal.style.display = 'block';
+    modalImg.src = imgSrc;
+}
+
+
+    function closeCertificateModal() {
+        document.getElementById('certificateModal').style.display = "none";
+    }
+
+    // Open slide modal
+    let currentProjectId = '';
+    let currentSlideIndex = 0;
+    let slides = [];
+    let thumbnails = [];
+
+    function openModal(event, projectId, index) {
+        event.preventDefault();
+        currentProjectId = projectId;
+        currentSlideIndex = index;
+
+        const modal = document.getElementById('myModal');
+        const modalImg = document.getElementById("modalImage");
+        const thumbnailContainer = document.getElementById("thumbnailContainer");
+
+        const project = document.getElementById(projectId);
+        slides = project.getElementsByTagName('img');
+
+        thumbnailContainer.innerHTML = '';
+        thumbnails = [];
+
+        for (let i = 0; i < slides.length; i++) {
+            const thumbnail = document.createElement('img');
+            thumbnail.src = slides[i].src;
+            thumbnail.alt = slides[i].alt;
+            thumbnail.className = 'thumbnail';
+            thumbnail.onclick = function () {
+                currentSlideIndex = i;
+                updateModal();
+            };
+            thumbnailContainer.appendChild(thumbnail);
+            thumbnails.push(thumbnail);
+        }
+
+        modal.style.display = "block";
+        updateModal();
+    }
+
+    function updateModal() {
+        const modalImg = document.getElementById("modalImage");
+
+        if (slides.length > 0) {
+            modalImg.src = slides[currentSlideIndex].src;
+            modalImg.alt = slides[currentSlideIndex].alt;
+
+            thumbnails.forEach((thumb, index) => {
+                thumb.classList.toggle('active-thumbnail', index === currentSlideIndex);
+            });
+        }
+    }
+
+    function closeModal() {
+        document.getElementById('myModal').style.display = "none";
+    }
+
+    function plusSlides(n) {
+        currentSlideIndex += n;
+
+        if (currentSlideIndex >= slides.length) {
+            currentSlideIndex = 0;
+        } else if (currentSlideIndex < 0) {
+            currentSlideIndex = slides.length - 1;
+        }
+
+        updateModal();
+    }
+
+    // Combined event for closing modals when clicking outside
+    window.addEventListener('click', function (event) {
+        const certificateModal = document.getElementById('certificateModal');
+        const myModal = document.getElementById('myModal');
+
+        if (event.target === certificateModal) {
+            closeCertificateModal();
+        }
+
+        if (event.target === myModal) {
+            closeModal();
+        }
+    });
+
+    // Navigation with arrows and ESC
+    document.onkeydown = function (event) {
+        event = event || window.event;
+        if (event.keyCode == 27) {
+            closeModal();
+        } else if (event.keyCode == 37) {
+            plusSlides(-1);
+        } else if (event.keyCode == 39) {
+            plusSlides(1);
+        }
+    };
+
+    // On load: activate Year 4
+    window.addEventListener('DOMContentLoaded', function () {
+        const course4Btn = document.getElementById('course4-btn');
+        filterCertificates('course4', course4Btn);
+    });
+
+    function openProjectModal(event, projectImageUrl) {
+    var modal = document.getElementById('projectModal');
+    var modalImg = document.getElementById("projectImage");
+    modal.style.display = "block";
+    modalImg.src = projectImageUrl;
+}
+
+function closeProjectModal() {
+    var modal = document.getElementById('projectModal');
+    modal.style.display = "none";
+}
+
+// Мобильное меню
+document.querySelector('.mobile-menu-btn').addEventListener('click', function() {
+  document.querySelector('.mobile-links-container').classList.toggle('show');
+});
+
+// Закрытие меню при клике на ссылку
+document.querySelectorAll('.mobile-links-container .link').forEach(link => {
+  link.addEventListener('click', function() {
+    document.querySelector('.mobile-links-container').classList.remove('show');
+  });
+});
+
+</script>
+
+
+</body>
+</html>
